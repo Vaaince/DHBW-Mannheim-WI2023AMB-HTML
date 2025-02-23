@@ -1,0 +1,88 @@
+body {
+    background-color: #d00027;  /* Etwas dunkleres Rot */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 40px auto;
+    background-color: #b0001c;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #d00027;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #d00027;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.back-link:hover {
+    background-color: #ffcc00;
+    color: #d00027;
+}
+
+ol {
+    list-style-position: inside;  
+    text-align: left; 
+    padding-left: 20px;  
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+ol li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #d00027;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+

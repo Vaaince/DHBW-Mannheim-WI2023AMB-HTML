@@ -1,0 +1,104 @@
+body {
+    background-color: #cd101c;  /* Typisches Leverkusen-Rot */
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    margin: 40px auto;
+    background-color: #990000;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.club-logo {
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.club-info h2 {
+    margin-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+ul li {
+    margin: 12px 0;
+    padding: 12px;
+    background-color: #e30613;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.trainer-pic {
+    width: 180px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.stadion-pic {
+    width: 300px;
+    height: auto;
+    border-radius: 5%;
+    margin-top: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.club-links {
+    margin-top: 30px;
+}
+
+.official-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 24px;
+    background-color: white;
+    color: #e30613;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.official-link:hover {
+    background-color: #ffc107;
+    color: #990000;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #e30613;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.back-link:hover {
+    background-color: #ffc107;
+    color: #990000;
+}
